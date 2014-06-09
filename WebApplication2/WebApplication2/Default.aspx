@@ -9,8 +9,9 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    test
+    test 
     </div>
+        <asp:Literal ID="Literal1" runat="server"></asp:Literal>
     </form>
 </body>
 </html>
