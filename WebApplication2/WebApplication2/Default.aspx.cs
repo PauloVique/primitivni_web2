@@ -12,7 +12,7 @@ namespace WebApplication2
        
         protected void Page_Load(object sender, EventArgs e)
         {
-            Literal1.Text = "Verze webu: "+System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            Literal1.Text = "Verze webu1: "+System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
         }
     }
 }
